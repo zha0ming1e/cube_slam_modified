@@ -1,0 +1,12 @@
+object_slam/Thirdparty/g2o/lib/
+object_slam/Thirdparty/g2o/build/
+
+orb_object_slam/data/
+orb_object_slam/Vocabulary/ORBvoc.txt
+orb_object_slam/Thirdparty/g2o/lib/
+orb_object_slam/Thirdparty/g2o/build/
+orb_object_slam/Thirdparty/DBoW2/lib/
+orb_object_slam/Thirdparty/DBoW2/build/
+
+# build dirs
+*/build/
