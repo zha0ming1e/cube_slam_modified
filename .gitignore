@@ -1,6 +1,8 @@
+# build and lib dirs
 object_slam/Thirdparty/g2o/lib/
 object_slam/Thirdparty/g2o/build/
 
+# data, build, lib dirs and large vocabulary file 
 orb_object_slam/data/
 orb_object_slam/Vocabulary/ORBvoc.txt
 orb_object_slam/Thirdparty/g2o/lib/
