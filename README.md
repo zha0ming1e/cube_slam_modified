@@ -12,7 +12,8 @@
 ![image](https://github.com/zha0ming1e/cube_slam_modified/blob/main/image/orb_object_slam_mono_4x.gif)
 
 
-This code contains two mode:
+
+- This code contains two mode:
 1)  object SLAM integrated with ORB SLAM. See ```orb_object_slam```  Online SLAM with ros bag input. It reads the offline detected 3D object.
 2) Basic implementation for Cube only SLAM. See ```object_slam``` Given RGB and 2D object detection, the algorithm detects 3D cuboids from each frame then formulate an object SLAM to optimize both camera pose and cuboid poses.  is main package. ```detect_3d_cuboid``` is the C++ version of single image cuboid detection, corresponding to a [matlab version](https://github.com/shichaoy/matlab_cuboid_detect).
 
@@ -61,10 +62,14 @@ You will see results in Rviz. Default rviz file is for ros indigo. A kinetic ver
 To run orb-object SLAM in folder ```orb_object_slam```, download [data](https://drive.google.com/open?id=1FrBdmYxrrM6XeBe_vIXCuBTfZeCMgApL). See correct path in ```mono.launch```, then run following in two terminal:
 ``` bash
 roslaunch orb_object_slam mono.launch
-rosbag play mono.bag --clock -r 0.5
+rosbag play PATH_TO_DATA/seq_07/left_full_gray.bag --clock -r 0.5
 ```
 
-To run dynamic orb-object SLAM mentioned in the paper, download [data](https://drive.google.com/drive/folders/1T2PmK3Xt5Bq9Z7UhV8FythvramqhOo0a?usp=sharing). Similar to above, set correct path in ```mono_dynamic.launch```, then run the launch file with bag file.
+To run dynamic orb-object SLAM mentioned in the paper, download [data](https://drive.google.com/drive/folders/1T2PmK3Xt5Bq9Z7UhV8FythvramqhOo0a?usp=sharing). Similar to above, set correct path in ```mono_dynamic.launch```, then run the launch file with bag file in two terminal: 
+```bash
+roslaunch orb_object_slam mono_dynamic.launch
+rosbag play PATH_TO_DATA/0018/mono.bag --clock -r 0.5
+```
 
 
 If compiling problems met, please refer to ORB_SLAM.
