@@ -72,7 +72,7 @@ rosbag play PATH_TO_DATA/0018/mono.bag --clock -r 0.5
 ```
 
 
-If compiling problems met, please refer to ORB_SLAM.
+If compiling problems met, please refer to [ORB_SLAM](https://github.com/raulmur/ORB_SLAM) or [ORB_SLAM2](https://github.com/raulmur/ORB_SLAM2).
 
 
 ### Notes
