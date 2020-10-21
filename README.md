@@ -52,7 +52,7 @@ catkin_make -j4
 ```
 
 
-### Download the Vocabulary 
+### Download the vocabulary 
 You can dowload the `ORBvoc.txt.tar.gz` from [ORB-SLAM2 Vocabulary](https://github.com/raulmur/ORB_SLAM2/tree/master/Vocabulary) to `orb_object_slam/Vocabulary/`, and run: 
 ```bash
 tar xzvf ORBvoc.txt.tar.gz 
@@ -67,13 +67,13 @@ roslaunch object_slam object_slam_example.launch
 ```
 You will see results in Rviz. Default rviz file is for ros indigo. A kinetic version is also provided.
 
-To run orb-object SLAM in folder ```orb_object_slam```, download [data](https://drive.google.com/open?id=1FrBdmYxrrM6XeBe_vIXCuBTfZeCMgApL). See correct data and vocabulary path in ```mono.launch``` , then run following in two terminal:
+To run orb-object SLAM in folder ```orb_object_slam```, download [data](https://drive.google.com/open?id=1FrBdmYxrrM6XeBe_vIXCuBTfZeCMgApL). Set correct data and vocabulary path in ```mono.launch``` , then run following in two terminal:
 ``` bash
 roslaunch orb_object_slam mono.launch
 rosbag play PATH_TO_DATA/seq_07/left_full_gray.bag --clock -r 0.5
 ```
 
-To run dynamic orb-object SLAM mentioned in the paper, download [data](https://drive.google.com/drive/folders/1T2PmK3Xt5Bq9Z7UhV8FythvramqhOo0a?usp=sharing). Similar to above, set correct path in ```mono_dynamic.launch```, then run the launch file with bag file in two terminal: 
+To run dynamic orb-object SLAM mentioned in the paper, download [data](https://drive.google.com/drive/folders/1T2PmK3Xt5Bq9Z7UhV8FythvramqhOo0a?usp=sharing). Similar to above, set correct data and vocabulary path in ```mono_dynamic.launch```, then run the launch file with bag file in two terminal: 
 ```bash
 roslaunch orb_object_slam mono_dynamic.launch
 rosbag play PATH_TO_DATA/0018/mono.bag --clock -r 0.5
