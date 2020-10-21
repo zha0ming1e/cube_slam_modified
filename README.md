@@ -39,20 +39,20 @@ git clone git@github.com:zha0ming1e/cube_slam_modified.git
 cd cube_slam
 ```
 
-### Compile dependency g2o
+### Compiling g2o
 ```bash
 sh install_dependenices.sh
 ```
 
 
-### Compile
+### Compiling 
 ```bash
 cd ~/cubeslam_ws
 catkin_make -j4
 ```
 
 
-### Download the vocabulary 
+### Downloading the vocabulary 
 You can dowload the `ORBvoc.txt.tar.gz` from [ORB-SLAM2 Vocabulary](https://github.com/raulmur/ORB_SLAM2/tree/master/Vocabulary) to `orb_object_slam/Vocabulary/`, and run: 
 ```bash
 tar xzvf ORBvoc.txt.tar.gz 
