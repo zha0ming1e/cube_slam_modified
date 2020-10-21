@@ -1,6 +1,6 @@
 **Vocabulary**: 
 
-You can dowloads the ORBvoc.txt.tar.gz from [ORB-SLAM2 Vocabulary](https://github.com/raulmur/ORB_SLAM2/tree/master/Vocabulary), and run: 
+You can dowload the ORBvoc.txt.tar.gz from [ORB-SLAM2 Vocabulary](https://github.com/raulmur/ORB_SLAM2/tree/master/Vocabulary), and run: 
 ```bash
 tar xzvf ORBvoc.txt.tar.gz 
 ```
