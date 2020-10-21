@@ -462,7 +462,7 @@ void incremental_build_graph(Eigen::MatrixXd& offline_pred_frame_objects, Eigen:
 		  cube_ground_value.fromMinimalVector(cube_pose);
 		  cube_local_meas = cube_ground_value.transform_to(curr_cam_pose_Twc); // measurement is in local camera frame
 
-		  if (detect_cuboid_obj.whether_sample_cam_roll_pitch)  //if camera roll/pitch is sampled, transform to the correct camera frame.
+		  if (detect_cuboid_obj.whether_sample_cam_roll_pitch)  // if camera roll/pitch is sampled, transform to the correct camera frame.
 		  {
 		      Vector3d new_camera_eulers =  detect_cuboid_obj.cam_pose_raw.euler_angle;
 		      new_camera_eulers(0) += detected_cube->camera_roll_delta; new_camera_eulers(1) += detected_cube->camera_pitch_delta;
