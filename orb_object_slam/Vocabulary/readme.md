@@ -6,6 +6,7 @@ tar xzvf ORBvoc.txt.tar.gz
 ```
  
  
+ 
 **or**  
 10 6 0 0 
 
