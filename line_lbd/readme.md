@@ -6,7 +6,7 @@ http://docs.opencv.org/3.0-beta/modules/line_descriptor/doc/tutorial.html
 
 
 # How to run:
-1. `catkin make`
+1. `catkin_make`
 2. `roslaunch line_lbd line_detect.launch`
 
 In the launch file, choose to set some parameters.
