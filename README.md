@@ -91,17 +91,16 @@ If compiling problems met, please refer to [ORB_SLAM](https://github.com/raulmur
 
 3. ```object_slam/data/``` contains all the preprocessing data: 
 
-```depth_imgs/``` is just for visualization; 
+    ```depth_imgs/``` is just for visualization;
 
-```pred_3d_obj_overview/``` is the offline matlab cuboid detection images; 
+    ```pred_3d_obj_overview/``` is the offline matlab cuboid detection images;
 
-```detect_cuboids_saved.txt``` is the offline cuboid poses in local ground frame, in the format "3D position, 1D yaw, 3D scale, score". 
+    ```detect_cuboids_saved.txt``` is the offline cuboid poses in local ground frame, in the format "3D position, 1D yaw, 3D scale, score".
 
-```pop_cam_poses_saved.txt``` is the camera poses to generate offline cuboids (camera x/y/yaw = 0, truth camera roll/pitch/height); 
+    ```pop_cam_poses_saved.txt``` is the camera poses to generate offline cuboids (camera x/y/yaw = 0, truth camera roll/pitch/height);
 
-```truth_cam_poses.txt``` is mainly used for visulization and comparison; 
+    ```truth_cam_poses.txt``` is mainly used for visulization and comparison;
 
-```filter_2d_obj_txts/``` is the 2D object bounding box txt. We use Yolo to detect 2D objects. Other similar methods can also be used; 
+    ```filter_2d_obj_txts/``` is the 2D object bounding box txt. We use Yolo to detect 2D objects. Other similar methods can also be used;
 
-```preprocessing/2D_object_detect``` is our prediction code to save images and txts. Sometimes there might be overlapping box of the same object instance. We need to filter and clean some detections. See the [```filter_match_2d_boxes.m```](https://github.com/shichaoy/matlab_cuboid_detect/blob/master/filter_match_2d_boxes.m) in our matlab detection package.
-
+    ```preprocessing/2D_object_detect``` is our prediction code to save images and txts. Sometimes there might be overlapping box of the same object instance. We need to filter and clean some detections. See the [```filter_match_2d_boxes.m```](https://github.com/shichaoy/matlab_cuboid_detect/blob/master/filter_match_2d_boxes.m) in our matlab detection package.
