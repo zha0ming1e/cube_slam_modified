@@ -30,12 +30,12 @@ If you use the code in your research work, please cite the above paper. Feel fre
 ## Installation
 
 ### Prerequisites
-This code contains several ros packages. We test it in **ROS indigo/kinetic, Ubuntu 14.04/16.04, Opencv 2/3**. Create or use existing a ros workspace.
+This code contains several ros packages. We test it in **ROS indigo/kinetic/melodic, Ubuntu 14.04/16.04/18.04, Opencv 2/3**. Create or use existing a ros workspace.
 ```bash
 mkdir -p ~/cubeslam_ws/src
 cd ~/cubeslam_ws/src
 catkin_init_workspace
-git clone git@github.com:shichaoy/cube_slam.git
+git clone git@github.com:zha0ming1e/cube_slam_modified.git
 cd cube_slam
 ```
 
