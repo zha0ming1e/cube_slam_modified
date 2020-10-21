@@ -3,7 +3,7 @@
 # Cube SLAM #
 (Forked from [**Shichao Yang**](https://github.com/shichaoy): [**cube_slam**](https://github.com/shichaoy/cube_slam), a modification of Cube SLAM for **Ubuntu 18.04 + ROS Melodic + OpenCV 3.1** and own datasets)
 
-![image](https://github.com/zha0ming1e/cube_slam_modified/blob/main/image/object_slam_example.gif)
+![image](https://github.com/zha0ming1e/cube_slam_modified/blob/main/image/object_slam_example_4x.gif)
 
 This code contains two mode:
 1)  object SLAM integrated with ORB SLAM. See ```orb_object_slam```  Online SLAM with ros bag input. It reads the offline detected 3D object.
