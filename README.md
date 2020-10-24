@@ -1,7 +1,7 @@
 
 
 # Cube SLAM #
-(Forked from [**Shichao Yang**](https://github.com/shichaoy): [**cube_slam**](https://github.com/shichaoy/cube_slam), a modification of Cube SLAM for **Ubuntu 18.04 + ROS Melodic + OpenCV 3.1** and own datasets)
+(Forked from [**Shichao Yang**](https://github.com/shichaoy): [**cube_slam**](https://github.com/shichaoy/cube_slam), a modification of Cube SLAM for **Ubuntu 18.04 + ROS Melodic + OpenCV 3.1** and our own datasets)
 
 ![image](https://github.com/zha0ming1e/cube_slam_modified/blob/main/image/object_slam_example.png)
 
