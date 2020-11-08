@@ -17,7 +17,7 @@
 1)  object SLAM integrated with ORB SLAM. See ```orb_object_slam```  Online SLAM with ros bag input. It reads the offline detected 3D object.
 2) Basic implementation for Cube only SLAM. See ```object_slam``` Given RGB and 2D object detection, the algorithm detects 3D cuboids from each frame then formulate an object SLAM to optimize both camera pose and cuboid poses. This is the main package. ```detect_3d_cuboid``` is the C++ version of single image cuboid detection, corresponding to a [matlab version](https://github.com/shichaoy/matlab_cuboid_detect).
 
-**Authors:** [Shichao Yang](https://shichaoy.github.io./)
+**Authors:** [Shichao Yang](https://shichaoy.github.io/)
 
 **Related Paper:**
 
