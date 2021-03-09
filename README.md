@@ -3,13 +3,13 @@
 # Cube SLAM #
 (Forked from [**Shichao Yang**](https://github.com/shichaoy): [**cube_slam**](https://github.com/shichaoy/cube_slam), a modification of Cube SLAM for **Ubuntu 18.04 + ROS Melodic + OpenCV 3.1** and our own datasets)
 
-![image](https://github.com/zha0ming1e/cube_slam_modified/blob/main/image/object_slam_example.png)
+![image](image/object_slam_example.png)
 
-![image](https://github.com/zha0ming1e/cube_slam_modified/blob/main/image/orb_object_slam_mono.png)
+![image](image/orb_object_slam_mono.png)
 
-![image](https://github.com/zha0ming1e/cube_slam_modified/blob/main/image/orb_object_slam_mono_dynamic.png)
+![image](image/orb_object_slam_mono_dynamic.png)
 
-![image](https://github.com/zha0ming1e/cube_slam_modified/blob/main/image/orb_object_slam_mono_4x.gif)
+![image](image/orb_object_slam_mono_4x.gif)
 
 
 
@@ -17,7 +17,7 @@
 1)  object SLAM integrated with ORB SLAM. See ```orb_object_slam```  Online SLAM with ros bag input. It reads the offline detected 3D object.
 2) Basic implementation for Cube only SLAM. See ```object_slam``` Given RGB and 2D object detection, the algorithm detects 3D cuboids from each frame then formulate an object SLAM to optimize both camera pose and cuboid poses. This is the main package. ```detect_3d_cuboid``` is the C++ version of single image cuboid detection, corresponding to a [matlab version](https://github.com/shichaoy/matlab_cuboid_detect).
 
-**Authors:** [Shichao Yang](https://shichaoy.github.io./)
+**Authors:** [Shichao Yang](https://shichaoy.github.io/)
 
 **Related Paper:**
 
